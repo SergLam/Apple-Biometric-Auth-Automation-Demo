@@ -1,13 +1,16 @@
 # BiometricAutomationDemo
 Dependency-free iOS Face ID and Touch ID automation example.
 
+Thanks God and Stackoverflow - I found a link to original article / demo project here:
+https://stackoverflow.com/questions/53555625/is-it-possible-to-automate-touch-id-or-face-id-using-xcuitest-in-simulator
+
 ## Zoom out
 
 UI testing anything related to biometrics is really tough on iOS because there's no way to simulate/turn on biometrics on the Simulator from within UI tests, wihtout some sort of external dependency.
 
 Until now.
 
-This project serves as a demo project for a [blog post](https://edit.theappbusiness.com/so-you-want-to-automate-ios-biometrics-81bd015f5d38) I wrote about how we approached finding a solution, and eventually ended up with what you can find in this repo.
+This project serves as a demo project for a [blog post](https://medium.com/kinandcartacreated/so-you-want-to-automate-ios-biometrics-81bd015f5d38) I wrote about how we approached finding a solution, and eventually ended up with what you can find in this repo.
 
 ## The demo
 
@@ -33,6 +36,6 @@ Another thing to be aware of us the differences in the UI between Touch ID and F
 
 ## Further reading
 
-If you want to read how we structure our automation tests to be significantly easier to read and maintain, check out [this series of posts](https://edit.theappbusiness.com/swifty-gherkins-part-1-28abba7dfd8).
+If you want to read how we structure our automation tests to be significantly easier to read and maintain, check out [this series of posts](https://medium.com/kinandcartacreated/so-you-want-to-automate-ios-biometrics-81bd015f5d38).
 
 Enjoy!
